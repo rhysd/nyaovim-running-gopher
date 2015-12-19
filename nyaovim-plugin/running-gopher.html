@@ -80,7 +80,8 @@
       this.gopher_frames = [
         document.querySelector('.gopher-frame01'),
         document.querySelector('.gopher-frame02'),
-        document.querySelector('.gopher-frame03')
+        document.querySelector('.gopher-frame03'),
+        document.querySelector('.gopher-frame02')
       ];
       this.clearFrames();
     },
@@ -100,7 +101,7 @@
           return;
         }
         var old = i;
-        i = (i + 1) % 3;
+        i = (i + 1) % this.gopher_frames.length;
         this.gopher_frames[i].style.opacity = 1.0;
         this.gopher_frames[old].style.opacity = 0.0;
         setTimeout(showFrame, this.interval);
