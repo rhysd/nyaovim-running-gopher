@@ -7,6 +7,25 @@ Running Gopher in [Nyavim](https://github.com/rhysd/NyaoVim)
 
 ![screenshot](https://raw.githubusercontent.com/rhysd/ss/master/nyaovim-running-gopher/running-gopher.gif)
 
+## Installation
+
+### 1. Install this repository as Neovim plugin
+
+e.g. neobundle.vim
+
+```vim
+NeoBundle 'rhysd/nyaovim-running-gopher'
+```
+
+### 2. Add component to nyaovimrc.html
+
+```html
+<!-- Component tags here -->
+<neovim-editor id="nyaovim-editor" argv$="[[argv]]"></neovim-editor>
+<!-- Add this line-->
+<running-gopher editor="[[editor]]"></running-gopher>
+```
+
 ## License
 
 Licensed under MIT license.
