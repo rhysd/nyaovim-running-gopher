@@ -1,6 +1,8 @@
 Running Gopher in [Nyavim](https://github.com/rhysd/NyaoVim)
 ============================================================
 
+`:RunGopher` command to run gopher in Neovim.  Heavily inspired by [@mattn's gopher](https://github.com/mattn/gopher).
+
 ## ScreenShot
 
 ![screenshot](https://raw.githubusercontent.com/rhysd/ss/master/nyaovim-running-gopher/running-gopher.gif)
